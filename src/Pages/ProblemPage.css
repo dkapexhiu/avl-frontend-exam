@@ -1,0 +1,11 @@
+@media all and (max-width: 480px){
+    .bottomTxt{
+        bottom: inherit!important;
+        top: 230px;
+        width: -webkit-fill-available;
+        padding-left: 2%;
+        background-color: #212529;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+}
