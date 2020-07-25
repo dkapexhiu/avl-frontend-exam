@@ -11,6 +11,7 @@ import LineChart from "./../Components/LineChart";
 import Label from "./../Components/AxisLabel";
 import ChartTitle from "./../Components/ChartTitle";
 import './../Pages/ProblemPage.css';
+import Pi from './../static/images/pi.jpg';
 
 const Wrapper = styled.div`
 	font-family: Calibri;
@@ -468,6 +469,7 @@ const styles = {
               <Button text='Skip'/>
               <Button submit text='Submit' id={'submitBtn'} disabled/>
             </ButtonRow>
+			<img src={Pi} alt="" id="pi" />
           </MainPane>
         </Page>
       </Wrapper>
